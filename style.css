@@ -76,8 +76,12 @@ h2 {
     color: white;
 }
 
-.hide {
+#game1img {
     display: none;
+    width: 400px;
+    height: 400px;
+    padding: none;
+    margin: none;
 }
 
 .show {
@@ -104,6 +108,14 @@ h2 {
     margin-right: 10px;
     color: white;
 }
+
+#game2img {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: none;
+    margin: none;
+}
 #game3 {
     background-color: #FF850F;
     height: 400px;
@@ -123,6 +135,14 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+}
+
+#game3img {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: none;
+    margin: none;
 }
 
 #game4 {
@@ -146,6 +166,22 @@ h2 {
     color: white;
 }
 
+#game4img {
+    display: none;
+    width: 400px;
+    max-height: 400px;
+    padding: none;
+    margin: none;
+}
+
+#pm {
+    display: none;
+    width: 800px;
+    height: 800px;
+    padding: none;
+    margin: none;
+}
+
 #favlinks div {
     color: white;
     background-color: black;
@@ -155,6 +191,7 @@ h2 {
     width: 200px;
     margin: 0 auto;
     padding-top: 30px;
+    font-size: 16px;
 }
 
 #favlinks a:link {
