@@ -1,3 +1,177 @@
 body {
-    background: #FF6984;
+    background: black;
 }
+
+.wrapper {
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.8em;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 0%;
+    line-height: 0.0em;
+    margin-right: -0.8em;
+}
+
+h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.8em;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0%;
+    line-height: 0.0em;
+    margin-right: -0.8em;
+}
+
+#intro {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: justify;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#organizer {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 15px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 800px;
+}
+
+#game1 {
+    background-color: #FF33E0;
+    height: 400px;
+    position: absolute;
+    width: 400px; 
+}
+
+#firstclue {
+    text-align: left;
+    font-size:50px;
+    line-height: 60px;
+    color:#FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#game2 {
+    background-color: #2CF028;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    width: 400px; 
+    text-align: left;
+    font-size:50px;
+    color:#FFF;
+}
+
+#secondclue {
+    text-align: right;
+    font-size:50px;
+    line-height: 60px;
+    color:#FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#game3 {
+    background-color: #FF850F;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    width: 400px; 
+    text-align: left;
+    font-size:50px;
+    color:#FFF;
+}
+
+#thirdclue {
+    text-align: right;
+    font-size:50px;
+    line-height: 60px;
+    color:#FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#game4 {
+    background-color: #0096FF;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    width: 400px; 
+    text-align: left;
+    font-size:50px;
+    color:#FFF;
+}
+
+#fourthclue {
+    text-align: left;
+    font-size:50px;
+    line-height: 60px;
+    color:#FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#favlinks div {
+    color: white;
+    background-color: black;
+    float: left;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#favlinks a:link {
+    color: #FF33E0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    vertical-align: center;
+    margin: 0 auto;
+    padding: 0%;
+  }
+  
+  #favlinks a:visited {
+    color: gray;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    vertical-align: center;
+    margin: 0 auto;
+    padding: 0%;
+  }
