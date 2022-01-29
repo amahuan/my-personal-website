@@ -182,6 +182,14 @@ h2 {
     margin: none;
 }
 
+#favlinksheading {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+}
+
 #favlinks div {
     color: white;
     background-color: black;
